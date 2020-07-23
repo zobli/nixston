@@ -46,12 +46,15 @@ iframe {
     }
 }
 
+.nixston-vid div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .nixston-vid .nixston-right {
     background-color: white;
     text-align: center;
     min-height: 500px;
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .nixston-vid .nixston-right iframe {
@@ -66,10 +69,16 @@ iframe {
     }
 }
 
+.nixston-vid .nixston-left {
+}
+
 .nixston-vid .nixston-left p {
     font-family: 'Bahnschrift Regular';
     font-size: 1rem;
     color: #bcbec0;
+    vertical-align: middle;
+    display: inline-block;
+    margin: auto
 }
 
 .nixston-divider {
