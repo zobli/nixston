@@ -5,13 +5,73 @@
     src: url('https://nixston.zob.li/BAHNSCHRIFT.woff') format('woff');
 }
 
-h1 {
-    font-family: 'Bahnschrift Regular';
-    font-size: 6rem;
+@font-face {
+    font-family: 'Bahnschrift Light';
+    font-style: normal;
+    font-weight: 100;
+    src: url('https://nixston.zob.li/BAHNSCHRIFT.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Bahnschrift Bold';
+    font-style: normal;
+    font-weight: bold;
+    src: url('https://nixston.zob.li/BAHNSCHRIFT.woff') format('woff');
 }
 
 body {
     background-color: #3d546b;
+}
+
+h1, h2 {
+    font-family: 'Bahnschrift Regular';
+    color: #58595b;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.nixston-left {
+}
+
+iframe {
+    width: 90%;
+    height: 450px;
+}
+
+.nixston-vid .nixston-right {
+    background-color: white;
+    text-align: center;
+    min-height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.nixston-vid .nixston-right iframe {
+    mwidth: 560px;
+    mheight: 315px;
+}
+
+@media (min-width: 1200px) {
+    .nixston-vid .nixston-right iframe {
+        mwidth: 853px;
+        mheight: 480px;
+    }
+}
+
+.nixston-vid .nixston-left p {
+    font-family: 'Bahnschrift Regular';
+    font-size: 1rem;
+    color: #bcbec0;
+}
+
+.nixston-divider {
+    display: none;
+    height: 2px;
+    background-color: teal;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -29,53 +89,51 @@ body {
     }
 }
 
-.nixston-left {
-    padding-left: 40px;
-    max-width: 500px;
+/* media */
+#nixston-head .nixston-left {
+    background-color: white;
+    text-align: center;
 }
 
-#nixston-head .nixston-left {
-    min-width: 200px;
-    background-color: white;
+#nixston-head .nixston-right {
+    background-color: #d1dae2;
+    padding-right: 30px;
 }
 
 #nixston-head .nixston-left h1 {
-    margin-bottom: -4rem;
 }
 
 #nixston-head .nixston-right h1 {
     color: white;
     text-align: right;
+    padding-top: 90px;
 }
 
-.nixston-vid .nixston-right {
-    background-color: white;
-    text-align: center;
-    min-height: 500px;
-    padding-top: 50px;
+#nixston-title {
+    display: inline-block;
+    margin-left: -15px;
 }
 
-.nixston-vid .nixston-right iframe {
-    width: 560px;
-    height: 315px;
+#nixston-nik {
+    text-align: left;
+    margin-bottom: -4rem;
+
 }
 
-@media (min-width: 1200px) {
-    .nixston-vid .nixston-right iframe {
-        width: 853px;
-        height: 480px;
-    }
+#nixston-zobl {
+    font-family: 'Bahnschrift Bold';
+    color: #f9a02b;
+    text-align: left;
+    margin-bottom: -0.8rem;
+    padding-left: 3px;
 }
 
-.nixston-vid .nixston-left p {
-    font-family: 'Bahnschrift Regular';
-    font-size: 1rem;
-    color: #bcbec0;
+#nixston-tagline {
+    font-family: 'Bahnschrift Light';
+    font-size: 12pt;
+    text-align: left;
+    padding-left: 7px;
 }
 
-.nixston-divider {
-    height: 2px;
-    background-color: teal;
-    margin-left: 50px;
-    margin-right: 50px;
-}
+
+
