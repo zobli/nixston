@@ -40,6 +40,12 @@ iframe {
     height: 450px;
 }
 
+@media (min-width: 1200px) {
+    iframe {
+        height: 600px;
+    }
+}
+
 .nixston-vid .nixston-right {
     background-color: white;
     text-align: center;
