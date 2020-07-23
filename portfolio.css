@@ -40,7 +40,7 @@ iframe {
     height: 450px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1600px) {
     iframe {
         height: 600px;
     }
