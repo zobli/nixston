@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://nixston.zob.li/BAHNSCHRIFT.woff') format('woff');
+}
+
+h1 {
+    font-family: 'Bahnschrift Regular';
+    font-size: 6rem;
+}
+
+body {
+    background-color: #3d546b;
+}
+
+
+#nixston-head {
+    border-bottom: solid 20px #f9a02b;
+}
+
+#nixston-head div {
+    height: 180px;
+}
+
+@media (min-width: 768px) {
+    #nixston-head div {
+        height: 220px;
+    }
+}
+
+.nixston-left {
+    padding-left: 40px;
+    max-width: 500px;
+}
+
+#nixston-head .nixston-left {
+    min-width: 200px;
+    background-color: white;
+}
+
+#nixston-head .nixston-left h1 {
+    margin-bottom: -4rem;
+}
+
+#nixston-head .nixston-right h1 {
+    color: white;
+    text-align: right;
+}
+
+.nixston-vid .nixston-right {
+    background-color: white;
+    text-align: center;
+    min-height: 500px;
+    padding-top: 50px;
+}
+
+.nixston-vid .nixston-right iframe {
+    width: 560px;
+    height: 315px;
+}
+
+@media (min-width: 1200px) {
+    .nixston-vid .nixston-right iframe {
+        width: 853px;
+        height: 480px;
+    }
+}
+
+.nixston-vid .nixston-left p {
+    font-family: 'Bahnschrift Regular';
+    font-size: 1rem;
+    color: #bcbec0;
+}
+
+.nixston-divider {
+    height: 2px;
+    background-color: teal;
+    margin-left: 50px;
+    margin-right: 50px;
+}
