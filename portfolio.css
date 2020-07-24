@@ -74,17 +74,16 @@ iframe {
 
 .nixston-vid .nixston-left p {
     font-family: 'Bahnschrift Regular';
-    font-size: 1rem;
-    color: #bcbec0;
-    vertical-align: middle;
-    display: inline-block;
-    margin: auto
+    font-size: 10rem;
+    color: #445b72;
+    text-align: right;
+    padding-top: 25%;
+    padding-right: 50px;
 }
 
 .nixston-divider {
     display: none;
     height: 2px;
-    background-color: teal;
     margin-left: 50px;
     margin-right: 50px;
 }
