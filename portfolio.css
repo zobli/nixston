@@ -49,19 +49,21 @@ iframe {
 }
 
 .nixston-vid .nixston-right {
-    background-color: white;
+    /*background-color: white;*/
     text-align: center;
     min-height: 500px;
 }
 
 @media (max-width: 767.98px) {
     .nixston-vid .nixston-left {
+        display: none;
         height: 200px;
         padding-top: 0px;
     }
 }
 
 .nixston-vid .nixston-left p {
+    display: none;
     font-family: 'Bahnschrift Regular';
     font-size: 10rem;
     color: #445b72;
@@ -98,17 +100,38 @@ iframe {
 
 #nixston-head {
     border-bottom: solid 20px #f9a02b;
-}
-
-#nixston-head div {
-    height: 220px;
-}
-
-/* media */
-#nixston-head .nixston-left {
+    position: fixed;
+    width: 35%;
+    max-width: 450px;
+    min-height: 250px;
+    height: 65%;
     background-color: white;
     text-align: center;
 }
+
+@media (max-width: 767.98px) {
+    #nixston-head {
+        width: 100%;
+        max-width: none;
+        position: relative;
+    }
+}
+
+#nixston-under-head {
+    position: fixed;
+    background-color: #d1dae249;
+    width: 35%;
+    max-width: 450px;
+    height: 100vh;
+    z-index: -1000;
+}
+
+@media (max-width: 767.98px) {
+    #nixston-under-head {
+        display: none;
+    }
+}
+
 
 #nixston-head .nixston-right {
     background-color: #d1dae2;
@@ -128,8 +151,13 @@ iframe {
 }
 
 #nixston-title {
+    width: 270px;
     display: inline-block;
-    margin-left: -15px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #nixston-nik {
