@@ -69,16 +69,32 @@ iframe {
     }
 }
 
-.nixston-vid .nixston-left {
+@media (max-width: 767.98px) {
+    .nixston-vid .nixston-left {
+        height: 200px;
+        padding-top: 0px;
+    }
 }
 
 .nixston-vid .nixston-left p {
     font-family: 'Bahnschrift Regular';
     font-size: 10rem;
     color: #445b72;
-    text-align: right;
-    padding-top: 25%;
-    padding-right: 50px;
+    text-align: center;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-top: -25px;
+}
+
+@media (min-width: 768px) {
+    .nixston-vid .nixston-left p {
+        font-family: 'Bahnschrift Regular';
+        font-size: 10rem;
+        color: #445b72;
+        text-align: right;
+        padding-top: 25%;
+        padding-right: 50px;
+    }
 }
 
 .nixston-divider {
@@ -94,13 +110,7 @@ iframe {
 }
 
 #nixston-head div {
-    height: 180px;
-}
-
-@media (min-width: 768px) {
-    #nixston-head div {
-        height: 220px;
-    }
+    height: 220px;
 }
 
 /* media */
@@ -112,6 +122,12 @@ iframe {
 #nixston-head .nixston-right {
     background-color: #d1dae2;
     padding-right: 30px;
+}
+
+@media (max-width: 767.98px) {
+    #nixston-head .nixston-right {
+        display: none;
+    }
 }
 
 #nixston-head .nixston-left h1 {
