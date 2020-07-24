@@ -32,9 +32,6 @@ h1 {
     font-size: 6rem;
 }
 
-.nixston-left {
-}
-
 iframe {
     width: 90%;
     height: 450px;
@@ -55,18 +52,6 @@ iframe {
     background-color: white;
     text-align: center;
     min-height: 500px;
-}
-
-.nixston-vid .nixston-right iframe {
-    mwidth: 560px;
-    mheight: 315px;
-}
-
-@media (min-width: 1200px) {
-    .nixston-vid .nixston-right iframe {
-        mwidth: 853px;
-        mheight: 480px;
-    }
 }
 
 @media (max-width: 767.98px) {
@@ -134,9 +119,6 @@ iframe {
     #nixston-head .nixston-right {
         display: none;
     }
-}
-
-#nixston-head .nixston-left h1 {
 }
 
 #nixston-head .nixston-right h1 {
